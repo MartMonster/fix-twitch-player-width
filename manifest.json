@@ -1,0 +1,11 @@
+{
+    "name": "fix max height twitch player",
+    "description": "fixes small black bars on the side of the twitch player in windows 11",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [ 
+        {
+            "css": [ "height.css" ],
+            "matches": [ "https://www.twitch.tv/*", "http://www.twitch.tv/*" ]
+        } ]
+}

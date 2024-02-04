@@ -1,0 +1,3 @@
+.video-player__container--resize-calc, .video-player__container {
+    max-height: none !important;
+}
