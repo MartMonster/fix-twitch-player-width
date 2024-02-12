@@ -1,3 +1,9 @@
 .video-player__container--resize-calc, .video-player__container {
     max-height: none !important;
 }
+.channel-root+.persistent-player {
+    max-height: none !important;
+}
+.channel-root__info {
+    margin-top: calc(calc(calc(100vw - 58rem) * 1080) / 1920) !important;
+}
